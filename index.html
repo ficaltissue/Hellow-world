@@ -1,501 +1,294 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>理财宝 首页</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- build:css css/combined.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="js/vendor/owl.carousel.2.1.0/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+</head>
+<body>
+<!--[if lte IE 8]>
+<p class="browserupgrade">您的浏览器版本老的可笑, 请到 <a href="http://browsehappy.com/">这里</a> 更新, 以获取最佳的体验</p>
+<![endif]-->
 
-    <title>IT教育网2015课程学习情况</title>
+<header>
+    <nav class="top">
+        <span class="tel">理财热线: 400-888-8888</span>
+        <ul>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">快速注册</a></li>
+            <li><a href="#">关于</a></li>
+            <li><a href="#">帮助</a></li>
+            <li><a href="#">APP下载</a></li>
+        </ul>
+    </nav>
+    <nav class="main">
+        <a href="#" class="brand"><img src="img/logo@1x.png" alt="回到首页"></a>
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">理财频道</a></li>
+            <li><a href="#">投资频道</a></li>
+            <li><a href="#">新手专区</a></li>
+            <li><a href="#">安全保障</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <!-- 载入所有的组件资源 -->
-    <script type="text/javascript" src="js/lib/jquery.js"></script>
-    <script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/lib/jquery.fullPage.js"></script>
-
-
-    <!-- H5对象：进行内容管理 -->
-
-    <script type="text/javascript" src="js/H5.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/H5.css" >
-
-    <script type="text/javascript" src="js/H5_loading.js"></script> 
-     <link rel="stylesheet" type="text/css" href="css/H5_loading.css" > 
-
-    <!-- 页面逻辑的样式 -->
-    <style type="text/css">
-
-        body{
-            margin: 0;
-            padding: 0;
-        }
-
-        .h5_page{
-            background-image: url(imgs/page_bg.png);
-        }
-        .h5_page_face{
-            background-image: url(imgs/face_bg.png);
-        }
-        .h5_component_name_slogan{
-            -webkit-animation:rock 2s infinite 2s;
-        }
-        @-webkit-keyframes rock{
-            0%{ transform:rotate(0deg)}
-            5%{ transform:rotate(3deg)}
-            10%{ transform:rotate(-4deg)}
-            15%{ transform:rotate(3deg)}
-            20%{ transform:rotate(-2deg)}
-            25%{ transform:rotate(1deg)}
-            30%{ transform:rotate(-1deg)}
-            70%{ transform:rotate(0deg)}
-            100%{ transform:rotate(0deg)}
-        }
-
-        .h5_component_name_caption{
-            background-image: url(imgs/page_caption_bg.png);
-            width: 283px;
-            height: 160px;
-            text-align: center;
-            line-height: 140px;
-            font-size: 20px;
-            color: #fff;
-        }
-        .h5_component_name_back{
-            top: 30px;
-            -webkit-animation:back 2s infinite 2s;
-        }
-
-        @-webkit-keyframes back{
-            50%{ top: 20px; }
-        }
-    </style>
-
-    
-    <body>
-
-    <div class="loading">
-
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-
-        <div id="rate">0%</div>
-
+<div class="container">
+    <div class="transaction clearfix">
+        <div class="trans-content">
+            <div class="trans-data">
+                <span>平台累计成交金额</span>
+                <span class="trans-money">19888</span>
+                <span>万元</span>
+            </div>
+            <div class="trans-data">
+                <span>过去7日成交金额</span>
+                <span class="trans-money">1888</span>
+                <span>万元</span>
+            </div>
+            <div class="trans-report">
+                <a href="#">查看平台运营报告</a>
+            </div>
+        </div>
     </div>
 
+    <div class="ad">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad001-l.png" media="(min-width:50em)">
+                    <source srcset="img/ad001-m.png" media="(min-width:30em)">
+                    <img src="img/ad001.png" alt="2015年度报告">
+                </picture>
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad002-l.png" media="(min-width: 50em)">
+                    <source srcset="img/ad002-m.png" media="(min-width: 30em)">
+                    <img srcset="img/ad002.png" alt="新年红包">
+                </picture>
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="img/ad003-l.png" media="(min-width: 50em)">
+                    <source srcset="img/ad003-m.png" media="(min-width: 30em)">
+                    <img srcset="img/ad003.png" alt="新手秘籍">
+                </picture>
+            </div>
+        </div>
+    </div>
 
+    <section class="feature">
+        <div class="item">
+            <h3>安全</h3>
+            <p>国家AAA信用平台<br>银行资金托管<br>上市公司背景保证</p>
+        </div>
+        <div class="item">
+            <h3>权威</h3>
+            <p>中央电视台推荐<br>互联网百强企业<br>标准起草单位</p>
+        </div>
+        <div class="item">
+            <h3>省心</h3>
+            <p>100元起投<br>用户利益保障机制<br>保险公司承保</p>
+        </div>
+    </section>
 
-    <!-- 加载 H5组件 相关资源 -->
-    <script type="text/javascript">
+    <div class="notice clearfix">
+        <a href="#"><span>2015-12-31</span>
+            元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告元旦期间业务受理及值班公告</a>
+        <a href="#" class="more">更多公告</a>
+    </div>
 
-        var res = [
-            'Base','Bar','Point','Polyline',
-            'Radar','Pie',
-            ];
-        var html = [];
-        for(s in res){
-            html.push('<script type="text/javascript" src="js/H5Component'+res[s]+'.js"><\/script>');
-            html.push('<link rel="stylesheet" type="text/css" href="css/H5Component'+res[s]+'.css">');
+    <section class="product clearfix">
+        <h2>固定期限产品
+            <em>甄选优质基金</em>
+            <em>省时省力</em>
+            <em>坐等收益</em>
+        </h2>
 
-        }
-        document.write( html.join('') );
-    </script>
-    <!-- 主要逻辑 -->
-    <script type="text/javascript">
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">3.50% <i>起</i></span></p>
+                    <p>总成交金额: <span class="money">1880 <i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
 
-        $(function  () {
-           
-            var h5 = new H5();
+            <div class="item clearfix">
+                <h3><em>3-6</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">3.60% <i>起</i></span></p>
+                    <p>总成交金额: <span class="money">2880 <i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
 
-            h5.whenAddPage = function(){
-                this.addComponent('slide_up',{
-                    bg:'imgs/footer.png',
-                    css:{
-                        opacity:0,
-                        left:0,bottom:-20,
-                        width:'100%',height:'25px',zIndex:999
-                    },
-                    animateIn:{
-                        opacity:1,bottom:'-1px'
-                    },
-                    animateOut:{
-                        opacity:0,bottom:'-20px'
-                    },
-                    delay:500
-                });
-            }
+            <div class="item clearfix">
+                <h3><em>6-12</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">4.50% <i>起</i></span></p>
+                    <p>总成交金额: <span class="money">3880 <i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
 
-            h5
-            .addPage('face')
-                .addComponent('topic',{
+            <div class="item clearfix">
+                <h3><em>12-24</em>个月</h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">5.60% <i>起</i></span></p>
+                    <p>总成交金额: <span class="money">4880 <i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
 
-                    center:true,
-                    width:395,
-                    height:130,
-                    bg:'imgs/face_logo.png',
-                    css:{opacity:0},
-                    animateIn:{top:100,opacity:1},
-                    animateOut:{top:0,opacity:0},
-                })
-                .addComponent('slogan',{
-                    center:true,
-                    width:365,
-                    height:99,
-                    bg:'imgs/face_slogan.png',
-                    css:{opacity:0,top:180},
-                    animateIn:{left:'50%',opacity:1},
-                    animateOut:{left:'0%',opacity:0},
-                    delay:500
-                })
-                .addComponent('face_img_left',{
-                    width:370,
-                    height:493,
-                    bg:'imgs/face_img_left.png',
-                    css:{opacity:0,left:-50,bottom:-50},
-                    animateIn:{opacity:1,left:0,bottom:0},
-                    animateOut:{opacity:0,left:-50,bottom:-50},
-                    delay:1000
-                })
-                .addComponent('face_img_right',{
-                    width:276,
-                    height:449,
-                    bg:'imgs/face_img_right.png',
-                    css:{opacity:0,right:-50,bottom:-50},
-                    animateIn:{opacity:1,right:0,bottom:0},
-                    animateOut:{opacity:0,right:-50,bottom:-50},
-                    delay:1000
-                })
-            .addPage()
-                 .addComponent('slogan',{
-                    center:true,
-                    width:365,
-                    height:99,
-                    bg:'imgs/face_slogan.png',
-                    css:{opacity:0,top:180},
-                    animateIn:{left:'50%',opacity:1},
-                    animateOut:{left:'0%',opacity:0},
-                    delay:500
-                })
-                .addComponent('caption',{text:'核心理念'})
-                .addComponent('text',{
-                    width:500,
-                    height:30,
-                    center:true,
-                    text:'IT教育网=只学有用的',
-                    css:{
-                        opacity:0,textAlign:'center',color:'red',fontSize:'26px'
-                    },
-                    animateIn:{opacity:1,top:120},
-                    animateOut:{opacity:0,top:240},
-                })
-                .addComponent('description',{
-                    center:true,
-                    width:481,
-                    height:295,
-                    bg:'imgs/description_bg.gif',
-                    css:{
-                        opacity:0,
-                        padding:'15px 10px 10px 10px',
-                        color:'#fff',
-                        fontSize:'15px',
-                        lineHeight:'18px',
-                        textAlign:'justify',
-                        top:240
-                    },
-                    text:'2013年，IT教育网的诞生引领中国IT职业从教育进入新时代；高质量实战课程、全新教学模式、实时互动学习，以领先优势打造行业品牌；迄今为止，IT教育网已成为中国规模最大、互动性最高的IT技能学习平台。',
-                    animateIn:{opacity:1,top:190},
-                    animateOut:{opacity:0,top:240},
-                    delay:1000
-                })
-                .addComponent('people',{
-                    center:true,
-                    width:515,
-                    height:305,
-                    bg:'imgs/p1_people.png',
-                    css:{
-                        opacity:0,
-                        bottom:0
-                    },
-                    animateIn:{opacity:1,bottom:40},
-                    animateOut:{opacity:0,bottom:0},
-                    delay:500,
-                })
-            
-            .addPage()
-                .addComponent('caption',{text:'课程分布方向'})//polyline
-                .addComponent('polyline',{
-                    type:'polyline',
-                    data:[['前端开发',.4,'#ff7676'],['移动开发',.2],['后端开发',.3,'blue'],['图像处理',.1]],
-                    width:530,
-                    height:300,
-                    center:true,
-                    css:{opacity:0,top:200},
-                    animateIn:{opacity:1,top:250},
-                    animateOut:{opacity:0,top:100},
-                    delay:500,
-                })
-                .addComponent('msg',{
-                    text:'前端开发课程占到40%',
-                    css:{
-                        opacity:0,top:160,
-                        textAlign:'center',width:'100%',color:'#ff7676'
-                    },
-                    animateIn:{ opacity:1},
-                    animateOut:{ opacity:0}
-                })
+            <div class="item clearfix">
+                <h3><em>24</em>个月以上</h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">6.20% <i>起</i></span></p>
+                    <p>总成交金额: <span class="money">5880 <i>万元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">购买</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="product clearfix">
+        <h2>债权/散标产品
+            <em>自主投资</em>
+            <em>期限灵活</em>
+        </h2>
 
-            .addPage()
-                .addComponent('caption',{text:'移动开发课程资源'})//pie
-                .addComponent('pie',{
-                    type:'pie',
-                    data:[
-                        ['Android' , .4  ,'#ff7676'],
-                        ['IOS' , .3 ],
-                        ['Cocos2d-x' , .2  ],
-                        ['Unity-3D' , .1  ],
-                    ],
-                    css:{top:200},
-                    width:300,
-                    height:300,
-                    center:true
-                })
-                .addComponent('msg',{
-                    text:'移动课程 Android 占到40%',
-                    css:{
-                        opacity:0,bottom:120,
-                        textAlign:'center',width:'100%',color:'#ff7676'
-                    },
-                    animateIn:{ opacity:1},
-                    animateOut:{ opacity:0}
-                })
-            .addPage() //bar（bar_v）
-                .addComponent('caption',{text:'前端开发课程'})
-                .addComponent('bar',
-                            {
-                                type : 'bar',
-                                width : 530,
-                                height : 600,
-                                data:[
-                                    ['Javascript' , .4  ,'#ff7676'],
-                                    ['HTML/CSS' , .2  ],
-                                    ['CSS3' , .1 ],
-                                    ['HTML5' , .2  ],
-                                    ['jQuery' , .35 ],
-                                    ['Bootstrap' , .05 ],
-                                    ['AngularJs' , .09  ]
-                                ],
-                                css : {
-                                    top:100,
-                                    opacity:0
-                                },
-                                animateIn:{
-                                    opacity:1,
-                                    top:200,
-                                },
-                                animateOut:{
-                                    opacity:0,
-                                    top:100,
-                                },
-                                center : true,
-                            }
-                )
-                .addComponent('msg',{
-                    text:'前端课程 Javascript 占到40%',
-                    css:{
-                        opacity:0,bottom:120,
-                        textAlign:'center',width:'100%',color:'#ff7676'
-                    },
-                    animateIn:{ opacity:1},
-                    animateOut:{ opacity:0}
-                })
+        <div class="product-content">
+            <div class="item clearfix">
+                <h3><em>3</em>个月 <i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">4.90%</span></p>
+                    <p>金额: <span class="money">18,000 <i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
+            </div>
 
-            .addPage() //（bar_v）
-                .addComponent('caption',{text:'前端开发课程'})
-                .addComponent('bar',
-                            {
-                                type : 'bar',
-                                width : 530,
-                                height : 400,
-                                data:[
-                                    ['Js' , .4  ,'#ff7676'],
-                                    ['CSS3' , .1 ],
-                                    ['HTML5' , .2  ],
-                                    ['PHP' , .05  ],
-                                    ['jQuery' , .35 ]
-                                ],
-                                css : {
-                                    top:220,
-                                    opacity:0
-                                },
-                                animateIn:{
-                                    opacity:1,
-                                    top:200,
-                                },
-                                animateOut:{
-                                    opacity:0,
-                                    top:220,
-                                },
-                                center : true
-                            }
-                )
-                .addComponent('msg',{
-                    text:'前端课程 Javascript 占到40%',
-                    css:{
-                        opacity:0,top:180,
-                        textAlign:'center',width:'100%',color:'#ff7676'
-                    },
-                    animateIn:{ opacity:1},
-                    animateOut:{ opacity:0}
-                })
+            <div class="item clearfix">
+                <h3><em>5</em>个月 <i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">5.20%</span></p>
+                    <p>金额: <span class="money">28,800 <i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#">投标</a>
+                </div>
+            </div>
 
-            .addPage()
-                .addComponent('caption',{text:'后端开发课程'})//radar
+            <div class="item clearfix">
+                <h3><em>7</em>个月 <i>个人消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">5.50%</span></p>
+                    <p>金额: <span class="money">38,800 <i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">还款中</a>
+                </div>
+            </div>
 
-                .addComponent('radar',{
-                    type : 'radar',
-                    width : 400,
-                    height : 400,
-                    data:[
-                        ['Js' , .9  ,'#ff7676'],
-                        ['CSS3' , .8 ],
-                        ['HTML5' , .7  ],
-                        ['PHP' , .6  ],
-                        ['jQuery' , .5 ]
-                    ],
-                    css : {
-                        top:100,
-                        opacity:0
-                    },
-                    animateIn:{
-                        opacity:1,
-                        top:200,
-                    },
-                    animateOut:{
-                        opacity:0,
-                        top:100,
-                    },
-                    center : true,
-                })
-            .addPage()
-                .addComponent('caption',{text:'课程报名人数过万'})//ring
-                .addComponent('ring-all',{
-                    type : 'ring',center : true,
-                    width : 300,height : 300,
-                    data:[['总课程' , .7  ,'#ff7676']],
-                    css : { top:120,opacity:0 ,fontSize:'30px'},
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
-               .addComponent('msg',{
-                    text:'不同课程报名人数超过一万占比',
-                    css:{
-                        opacity:0,top:300,
-                        textAlign:'center',width:'100%',color:'#ff7676'
-                    },
-                    animateIn:{ opacity:1},
-                    animateOut:{ opacity:0},
-                    delay:1800,
-                })
-                .addComponent('ring-1',{
-                    type : 'ring',center : true,
-                    width : 140,height : 140,
-                    data:[['前端开发' , .4  ,'darkorange']],
-                    css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
-                .addComponent('ring-2',{
-                    type : 'ring',
-                    width : 140,height : 140,
-                    data:[['后端开发' , .3  ,'darkorange']],
-                    css : { left:30,bottom:110,opacity:0,fontSize:'12px' },
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
-                .addComponent('ring-3',{
-                    type : 'ring',
-                    width : 140,height : 140,
-                    data:[['移动开发' , .2  ,'darkorange']],
-                    css : { right:30,bottom:110,opacity:0,fontSize:'12px' },
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
-                .addComponent('ring-3',{
-                    type : 'ring',
-                    width : 140,height : 140,
-                    data:[['数据处理' , .1  ,'darkorange']],
-                    css : { left:70,bottom:40,opacity:0,fontSize:'12px' },
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
-                .addComponent('ring-3',{
-                    type : 'ring',
-                    width : 140,height : 140,
-                    data:[['图像处理' , .1  ,'darkorange']],
-                    css : { right:70,bottom:40,opacity:0,fontSize:'12px' },
-                    animateIn: { opacity:1},
-                    animateOut:{ opacity:0},
-                })
+            <div class="item clearfix">
+                <h3><em>1</em>个月 <i>日常生活消费</i></h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">4.60%</span></p>
+                    <p>金额: <span class="money">48,800 <i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">还款中</a>
+                </div>
+            </div>
 
-            .addPage()
-                .addComponent('caption',{text:'课程难度分布'})//point
-                .addComponent('point',{
-                  type : 'point',
-                  width : 300,
-                  height : 300,
-                  data:[
-                    ['中级' , .4  ,'#ff7676'],
-                    ['初级' , .2  ,'#ffa3a4', 0 ,'-60%'],
-                    ['高级' , .3  ,'#99c1ff', '50%' ,'-120%']
-                  ],
-                  css : {
-                    bottom:'20%'
-                  },
-                  center : true,
-            })
+            <div class="item clearfix">
+                <h3><em>12</em>个月以上 <i>资金周转</i></h3>
+                <div class="info">
+                    <p>约定年化收益率: <span class="year-rate">7.20%</span></p>
+                    <p>金额: <span class="money">58,800 <i>元</i></span></p>
+                </div>
+                <div class="buy">
+                    <a href="#" class="disabled">已满标</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            .addPage('tail')
-                .addComponent('logo',{
-                    center:true,
-                    width:359,
-                    height:129,
-                    bg:'imgs/tail_logo.png',
-                    css:{top:240,opacity:0},
-                    animateIn:{opacity:1,top:210},
-                    animateOut:{opacity:0,top:240},
-                })
-                .addComponent('slogan',{
-                    center:true,
-                    width:314,
-                    height:46,
-                    bg:'imgs/tail_slogan.png',
-                    css:{top:280,opacity:0},
-                    animateIn:{opacity:1,left:'50%'},
-                    animateOut:{opacity:0,left:'0%'},
-                    delay:500
-                })
-                .addComponent('share',{
-                    width:128,
-                    height:120,
-                    bg:'imgs/tail_share.png',
-                    css:{opacity:0,top:110,right:110},
-                    animateIn:{opacity:1,top:10,right:10},
-                    animateOut:{opacity:0,top:110,right:110},
-                    delay:1000 
-                })
-                .addComponent('back',{
-                    width:52,
-                    height:50,
-                    bg:'imgs/tail_back.png',
-                    center:true,
-                    onclick : function(){
-                         $.fn.fullpage.moveTo( 1 )
-                    }
-                })
-          
-        .loader( [ 'imgs/tail_back.png','imgs/tail_share.png','imgs/tail_slogan.png' ] );
+    <nav class="footer">
+        <div class="footer-content clearfix">
+            <p class="brand"></p>
+            <ul>
+                <li class="title">关于我们</li>
+                <li><a href="#">公司介绍</a></li>
+                <li><a href="#">业务模式</a></li>
+                <li><a href="#">合作机构</a></li>
+                <li><a href="#">服务协议</a></li>
+            </ul>
+            <ul>
+                <li class="title">风险防范</li>
+                <li><a href="#">账户安全</a></li>
+                <li><a href="#">安全保障</a></li>
+            </ul>
+            <ul>
+                <li class="title">理财产品</li>
+                <li><a href="#">固定期限</a></li>
+                <li><a href="#">债权/散标</a></li>
+            </ul>
+            <ul>
+                <li class="title">交易帮助</li>
+                <li><a href="#">购买</a></li>
+                <li><a href="#">赎回</a></li>
+                <li><a href="#">提现</a></li>
+            </ul>
+            <ul>
+                <li class="title">机构服务</li>
+                <li><a href="#">机构中心</a></li>
+                <li><a href="#">合作联系</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
-        });
-    </script>
+<footer>
+    <ul>
+        <li><span class="icon icon-zfywxk">支付业务许可证</span></li>
+        <li><span class="icon icon-pcirk">PCI认证</span></li>
+        <li><span class="icon icon-visayz">Visa 验证</span></li>
+        <li><span class="icon icon-vsjmfw">VerSign加密服务</span></li>
+        <li><span class="icon icon-wlgs">网络工商</span></li>
+        <li><span class="icon icon-rzcx">电子商务协会认证诚信网</span></li>
+        <li><span class="icon icon-gs">北京工商</span></li>
+    </ul>
+    <p>北京某互联网金融公司 版权所有 ® 2015-2016</p>
+</footer>
 
-    </body>
-
+<!-- build:js js/combined.js -->
+<script src="js/modernizr.js"></script>
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/owl.carousel.2.1.0/owl.carousel.min.js"></script>
+<script src="js/vendor/picturefill.min.js"></script>
+<script src="js/main.js"></script>
+<!-- endbuild -->
+</body>
 </html>
